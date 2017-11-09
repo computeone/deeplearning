@@ -1,0 +1,6 @@
+
+#
+!.*.bin
+!.*.tar
+!.*.gz
+!cifar10_data/.*
