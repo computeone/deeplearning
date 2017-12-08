@@ -25,12 +25,12 @@ class PageRank:
 
 #进行PR值的迭代计算
 
-    def eval(self,migrate,d,max_iteraitor):
+    def eval(self,migrate,d,max_iteraition):
         n = migrate.shape[0]
         bias = np.matrix([(1-d)/n] * n).transpose()
         rank = np.matrix([1] * n).transpose()
 
-        for i in range(max_iteraitor):
+        for i in range(max_iteraition):
             rank = bias + d * migrate * rank;
 
         return rank
