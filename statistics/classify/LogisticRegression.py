@@ -4,7 +4,9 @@ import os
 import numpy as np
 import math
 
-class LinearRegression:
+
+class LogisticRegression:
 
     def __init__(self):
-        print("init LinearRegression")
+        print("init LogisticRegression")
+

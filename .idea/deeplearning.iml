@@ -9,6 +9,7 @@
       <sourceFolder url="file://$MODULE_DIR$/statistics/DimReduction" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/statistics/prediction" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/statistics/sort" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/statistics/other" isTestSource="false" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />

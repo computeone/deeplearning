@@ -35,10 +35,10 @@ class PageRank:
 
         return rank
 
+if __name__ == '__main__':
 
-
-pr = PageRank()
-rank = pr.init_simple_example()
-rank = pr.eval(rank,0.85,20)
-print("rank:")
-print(rank)
+    pr = PageRank()
+    rank = pr.init_simple_example()
+    rank = pr.eval(rank,0.85,20)
+    print("rank:")
+    print(rank)

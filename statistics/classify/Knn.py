@@ -54,21 +54,22 @@ class KNN:
 
         return sum[0]
 
+if __name__ == '__main__':
 
-knn = KNN()
+    knn = KNN()
 
-datas = knn.get_simple_train_data()
-print("datas:")
-print(datas)
+    datas = knn.get_simple_train_data()
+    print("datas:")
+    print(datas)
 
-distances = knn.metrics(datas,[3,7])
-print("distance:")
-print(distances)
+    distances = knn.metrics(datas,[3,7])
+    print("distance:")
+    print(distances)
 
-distances_sorted = knn.sort(distances)
-print("sort:")
-print(distances_sorted)
+    distances_sorted = knn.sort(distances)
+    print("sort:")
+    print(distances_sorted)
 
-category = knn.gather(distances_sorted,3)
-print("result:")
-print(category)
+    category = knn.gather(distances_sorted,3)
+    print("result:")
+    print(category)

@@ -56,8 +56,9 @@ class Kmeans:
 
         return train
 
+if __name__ == '__main__':
 
-kmeans = Kmeans()
-train = kmeans.simple_train_set()
-category = kmeans.eval(train,3,10)
-print(category)
+    kmeans = Kmeans()
+    train = kmeans.simple_train_set()
+    category = kmeans.eval(train,3,10)
+    print(category)

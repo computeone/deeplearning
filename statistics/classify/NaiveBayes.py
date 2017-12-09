@@ -4,7 +4,7 @@ import os
 import numpy as np
 import math
 
-class LinearRegression:
+class NaiveBayes:
 
     def __init__(self):
-        print("init LinearRegression")
+        print("init naivebayes")
